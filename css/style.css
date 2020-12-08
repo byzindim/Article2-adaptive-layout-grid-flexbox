@@ -3,10 +3,14 @@
 @import url("blocks/article-top.css");
 @import url("blocks/right-top.css");
 @import url("blocks/slider.css");
-
-
-
-
+@import url("blocks/banner-marketing.css");
+@import url("blocks/article-center.css");
+@import url("blocks/right-center.css");
+@import url("blocks/slider-radio.css");
+@import url("blocks/radio-select.css");
+@import url("blocks/article-bottom.css");
+@import url("blocks/left-bottom.css");
+@import url("blocks/slider-end.css");
 
 
 @import url("fonts.css");

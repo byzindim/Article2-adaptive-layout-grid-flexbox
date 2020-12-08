@@ -1,0 +1,39 @@
+.slider-radio{
+    max-width: 1920px;
+    height: 752px;
+    background: #C6003B;
+    margin: 0 auto;
+}
+.container-slider{
+    background: #C6003B;
+}
+.content-slider-radio{
+    display: flex;
+    justify-content: space-between;
+    background:  #C6003B;
+}
+.title-article-center{
+    max-width: 1381px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 57px;
+    color: #FFFFFF;
+    background:  #C6003B;
+}
+.slider-article1-radio, .slider-article2-radio,
+.slider-article3-radio, .slider-article4-radio{
+    max-width: 331px;
+    height: 502px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.slider-border-radio{
+    max-width: 260px;
+    height: 3px;
+    background: #C6003B;
+    border-radius: 4px;
+}

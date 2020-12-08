@@ -1,0 +1,19 @@
+.center-banner, .end-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1379px;
+    height: 300px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.center-marketing, .end-marketing{
+    text-transform: uppercase;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 50px;
+    line-height: 115.8%;
+    letter-spacing: 0.54em;
+    color: #C4C4C4;
+}

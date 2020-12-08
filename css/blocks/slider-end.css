@@ -1,19 +1,19 @@
-.container-slider{
+.container-slider-end{
     margin: 19px 0 263px 5px;
 }
-.content-slider{
+.content-slider-end{
     display: flex;
     justify-content: space-between;
     background: #fff;
 }
-.slider-border, .slider-border3{
+.slider-border-end, .slider-border3-end{
     margin: 2px 0 0 0;
     width: 0px;
     height: 396.01px;
     border: 1px solid #C4C4C4;
     transform: rotate(-0.1deg);
 }
-.slider-article0{
+.slider-article0-end{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -22,7 +22,7 @@
     background: #C6003B;
     border-radius: 15px;
 }
-.data-slider0{
+.data-slider0-end{
     font-family: Geometria;
     font-style: normal;
     font-weight: normal;
@@ -30,7 +30,7 @@
     line-height: 109.2%;
     color: #FFFFFF;
 }
-.link-slider0{
+.link-slider0-end{
     max-width: 262px;
     height: 155px;
     font-family: Geometria;
@@ -40,13 +40,13 @@
     line-height: 115.8%;
     color: #FFFFFF;
 }
-.slider-border0{
+.slider-border0-end{
     max-width: 260px;
     height: 3px;
     background: #FFFFFF;
     border-radius: 4px;
 }
-.slider-p0{
+.slider-p0-end{
     max-width: 277px;
     height: 77px;
     font-family: Proxima Nova;
@@ -56,28 +56,28 @@
     line-height: 115.8%;
     color: #FFFFFF;
 }
-.slider-article{
+.slider-article-end{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;   
 }
 
-.slider-banner1{
+.slider-banner1-end{
     max-width: 324px;
     height: 260px;
     border-radius: 15px;
 }
-.slider-banner2, .slider-banner4{
+.slider-banner2-end, .slider-banner4-end{
     max-width: 315px;
     height: 260px;
     border-radius: 15px;
 }
-.slider-banner3{
+.slider-banner3-end{
     max-width: 325px;
     height: 260px;
     border-radius: 15px;
 }
-.link-slider1, .link-slider2, .link-slider3, .link-slider4{
+.link-slider1-end, .link-slider2-end, .link-slider3-end, .link-slider4-end{
     max-width: 277px;
     margin-left: 10px;
     font-family: Proxima Nova;
@@ -87,7 +87,7 @@
     line-height: 115.8%;
     color: #000000;
 }
-.data-slider{
+.data-slider-end{
     max-width: 113px;
     height: 15px;
     margin: 18px 0 8px 8px;
@@ -98,7 +98,7 @@
     line-height: 109.2%;
     color: #4A4A4A;
 }
-.slider-p{
+.slider-p-end{
     display: flex;
     max-width: 258px;
     margin-top: 11px;
