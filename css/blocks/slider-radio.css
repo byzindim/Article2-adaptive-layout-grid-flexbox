@@ -1,3 +1,6 @@
+.bg-red{
+    margin-top: 40px;
+}
 .slider-radio{
     max-width: 1920px;
     height: 752px;
@@ -13,10 +16,12 @@
     display: flex;
     justify-content: space-between;
     background:  #C6003B;
+    margin-bottom: 47px;
 }
-.title-article-center{
+.title-article-radio{
     max-width: 1381px;
     width: 100%;
+    margin: 52px 0 40px 4px;
     text-transform: uppercase;
     font-family: Gotham Pro;
     font-style: normal;
@@ -39,6 +44,10 @@
     height: 502px;
     background: #FFFFFF;
     border-radius: 15px;
+}
+.slider-article4-radio{
+    max-width: 334px;
+    height: 497px;
 }
 .slider-article5-radio{
     max-width: 121px;

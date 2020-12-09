@@ -1,5 +1,5 @@
 .container-top{
-    margin-top: 25px;
+    margin-top: 29px;
 }
 .grid-top{
     display: grid;
@@ -8,20 +8,20 @@
 .gird-item-article-top{
     grid-column: 1/1;
     grid-row: 1/1;
-    
     margin: 0;
 }
 .articles-top{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
     max-width: 1023px;
-    height: 220px;
+    margin-bottom: 17px;
 }
+
 .article-top{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start; 
 }
 .number{
     font-family: Gotham Pro;
@@ -31,9 +31,7 @@
     line-height: 67px;
     color: #C6003B;
 }
-.link-title-top{
-    max-width: 220px;
-    height: 101px;
+.link-title-top1,.link-title-top2,.link-title-top3{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 600;
@@ -41,10 +39,31 @@
     line-height: 24px;
     color: #000000;
 }
-.border-top{
+.link-title-top1{
+    margin: 4px 0px 0 28px;
+    max-width: 228px;
+    height: 75px;
+}
+.link-title-top2{
+    margin: 2px 0 0 24px;
+    max-width: 220px;
+    height: 73px;
+}
+.link-title-top3{
+    margin: 3px 0px 0 23px;
+    max-width: 220px;
+    height: 101px;
+}
+.border-top1, .border-top2{
     width: 0px;
     height: 84px;
     border: 1px solid #000000;
+}
+.border-top1{
+    margin: 0 34px 0 33px;
+}
+.border-top2{
+    margin: 0 31px 0 29px;
 }
 .gird-item-banner-top{
     grid-column: 1/1;
@@ -60,9 +79,10 @@
 }
 .content-top-img{
     position: absolute;
-    margin: -200px 0 0 50px;
+    margin: -315px 0 0 50px;
 }
 .data-top{
+    margin-bottom: 18px;
     font-family: Geometria;
     font-style: normal;
     font-weight: normal;
@@ -72,6 +92,7 @@
 }
 .top-title-left{
     max-width: 893.14px;
+    margin-bottom: 20px;
     font-family: Geometria;
     font-style: normal;
     font-weight: bold;

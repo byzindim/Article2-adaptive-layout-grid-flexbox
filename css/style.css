@@ -2,10 +2,11 @@
 @import url("blocks/header.css");
 @import url("blocks/article-top.css");
 @import url("blocks/right-top.css");
-@import url("blocks/slider.css");
+@import url("blocks/slider-top.css");
 @import url("blocks/banner-marketing.css");
 @import url("blocks/article-center.css");
 @import url("blocks/right-center.css");
+@import url("blocks/slider-center.css");
 @import url("blocks/slider-radio.css");
 @import url("blocks/radio-select.css");
 @import url("blocks/article-bottom.css");
