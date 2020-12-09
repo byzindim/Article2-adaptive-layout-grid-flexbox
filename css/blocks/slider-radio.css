@@ -4,7 +4,9 @@
     background: #C6003B;
     margin: 0 auto;
 }
-.container-slider{
+.container-slider-radio{
+    display: flex;
+    flex-direction: column;
     background: #C6003B;
 }
 .content-slider-radio{
@@ -24,16 +26,128 @@
     color: #FFFFFF;
     background:  #C6003B;
 }
-.slider-article1-radio, .slider-article2-radio,
+.slider-article1-radio{
+    max-width: 200px;
+    height: 502px;
+    background: #FFFFFF;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.slider-article2-radio,
 .slider-article3-radio, .slider-article4-radio{
     max-width: 331px;
     height: 502px;
     background: #FFFFFF;
     border-radius: 15px;
 }
-.slider-border-radio{
+.slider-article5-radio{
+    max-width: 121px;
+    height: 502px;
+    background: #FFFFFF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.slider-banner1-radio{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.slider-banner2-radio,
+.slider-banner3-radio,.slider-banner4-radio{
+    border-radius: 15px;
+}
+.slider-banner5-radio{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.data-slider1-radio{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.link-slider1-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.slider-p1-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 124.8%;
+    color: #000000;
+}
+.data-slider2-radio,.data-slider3-radio{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.link-slider2-radio,.link-slider3-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.slider-p2-radio,.slider-p3-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 124.8%;
+    color: #000000;
+}
+.link-slider4-radio{
+    max-width: 262px;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.slider4-border-radio{
     max-width: 260px;
     height: 3px;
     background: #C6003B;
     border-radius: 4px;
+}
+.slider-p4-radio{
+    max-width: 277px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 115.8%;
+    color: #000000;
+}
+
+
+.data-slider5-radio{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+.link-slider5-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.slider-p5-radio{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 124.8%;
+    color: #000000;
 }
