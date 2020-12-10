@@ -1,7 +1,8 @@
 .gird-item-left-bottom{
     grid-column: 1/1;
     grid-row: 2/6;
-    margin: 0px 0 0 0px;
+    margin: 6px 0 0 20px;
+    height: 574px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,7 +18,10 @@
     color: #000000;
 }
 .article-left-bottom{
-    max-width: 299px;
+    max-width: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .article-link-left-bottom{
     text-decoration: none;
@@ -29,7 +33,7 @@
     color: #000000;
 }
 .data-bottom{
-    margin-top: 14px;
+    margin-top: 13px;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
@@ -39,7 +43,7 @@
 }
 .border-left-bottom{
     display: flex;
-    max-width: 299px;
+    max-width: 272px;
     height: 0px;
     border: 1px solid #C9C9C9;
 }

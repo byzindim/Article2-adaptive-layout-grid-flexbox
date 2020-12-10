@@ -1,11 +1,15 @@
+.wrapper-slider-top{
+    max-width: 1373px;
+    margin: 0 auto;
+}
+
 .container-slider-top{
-    margin: 12px 0 45px 5px;
+    margin: 12px 0 45px 0;
 }
 .content-slider-top{
     display: flex;
     justify-content: space-between;
     background: #fff;
-    margin-left: -3px;
 }
 .content-slider-article0-top{
     position: absolute;
@@ -14,9 +18,11 @@
 }
 .slider-banner0-top{
     max-width: 334px;
+    width: 100%;
+    height: auto;
 }
 .slider-border-top{
-    margin: 0 0 0 -6px;
+    margin: 0 0 0 0;
     width: 0px;
     height: 497px;
     border: 1px solid #C4C4C4;
@@ -68,30 +74,25 @@
 }
 .slider-article-top{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;   
+    flex-direction: column;
+    height: 497px;   
 }
-
-.slider-banner1-top, .slider-banner2-top, .slider-banner3-top{
+.content-article-top{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 12px 0 0 8px;
+    height: 180px;
+}
+.slider-banner-top{
     max-width: 317px;
-    height: 260px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
 }
-.slider-banner1-top{
-margin-left: -3px;
-}
-.slider-banner2-top{
-    margin-left: -6px;
-    }
-.slider-banner2-top{
-    margin-left: -6px;
-}
-.slider-banner3-top{
-    margin-left: -7px;
-}
-.link-slider1-top, .link-slider2-top, .link-slider3-top, .link-slider4-top{
+
+.link-slider-top{
     max-width: 290px;
-    margin-left: 10px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -102,7 +103,6 @@ margin-left: -3px;
 .data-slider1-top,.data-slider2-top,
 .data-slider3-top{
     max-width: 113px;
-    height: 15px;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
@@ -111,18 +111,18 @@ margin-left: -3px;
     color: #4A4A4A;
 }
 .data-slider1-top{
-    margin: 18px 0 36px 8px;
+    margin-bottom: 30px;
 }
 .data-slider2-top{
-    margin: 18px 0 12px 8px;
+    margin-bottom: 9px;
 }
 .data-slider3-top{
-    margin: 18px 0 14px 8px;
+    margin-bottom: 9px;
 }
 .slider-p-top{
     display: flex;
     max-width: 258px;
-    margin-top: 17px;
+    margin-top: 9px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;

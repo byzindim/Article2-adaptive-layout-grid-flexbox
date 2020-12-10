@@ -39,8 +39,8 @@
     border-bottom-right-radius: 15px;
 }
 .slider-article2-radio,
-.slider-article3-radio, .slider-article4-radio{
-    max-width: 331px;
+.slider-article3-radio{
+    max-width: 333px;
     height: 502px;
     background: #FFFFFF;
     border-radius: 15px;
@@ -48,6 +48,8 @@
 .slider-article4-radio{
     max-width: 334px;
     height: 497px;
+    background: #FFFFFF;
+    border-radius: 15px;
 }
 .slider-article5-radio{
     max-width: 121px;
@@ -57,14 +59,23 @@
     border-bottom-left-radius: 15px;
 }
 .slider-banner1-radio{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .slider-banner2-radio,
-.slider-banner3-radio,.slider-banner4-radio{
+.slider-banner3-radio{
+    max-width: 333px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 .slider-banner5-radio{
+    max-width: 131px;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -102,13 +113,19 @@
 .link-slider2-radio,.link-slider3-radio{
     max-width: 297px;
     height: 66px;
-    margin:0 0 0 28px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 115.8%;
     color: #000000;
+}
+
+.link-radio2,.link-radio3{
+    margin:0 0 0 28px;
+}
+.link-radio5{
+    margin:0 0 0 23px;
 }
 .slider-p2-radio,.slider-p3-radio{
     margin: 14px 0 0 26px;
@@ -149,17 +166,14 @@
     line-height: 115.8%;
     color: #000000;
 }
-
-
 .data-slider5-radio{
-    margin: 26px 0 14px 27px;
+    margin: 26px 0 14px 23px;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
 }
 .link-slider5-radio{
-    margin:0 0 0 28px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -168,7 +182,7 @@
     color: #000000;
 }
 .slider-p5-radio{
-    margin: 14px 0 0 25px;
+    margin: 14px 0 0 24px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;

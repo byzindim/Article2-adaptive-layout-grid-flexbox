@@ -1,8 +1,11 @@
+.wrapper-marketing{
+    max-width: 1379px;
+    margin: 0 auto;
+}
 .center-banner, .end-banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1379px;
     height: 300px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
