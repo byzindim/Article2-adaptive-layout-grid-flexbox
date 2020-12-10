@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.title-left{
+.title-left-bottom{
     font-family: Geometria;
     text-transform: uppercase;
     font-style: normal;
@@ -16,10 +16,10 @@
     letter-spacing: 0.1em;
     color: #000000;
 }
-.article-left{
+.article-left-bottom{
     max-width: 299px;
 }
-.article-link-left{
+.article-link-left-bottom{
     text-decoration: none;
     font-family: Geometria;
     font-style: normal;
@@ -28,7 +28,7 @@
     line-height: 117.8%;
     color: #000000;
 }
-.data{
+.data-bottom{
     margin-top: 14px;
     font-family: Geometria;
     font-style: normal;
@@ -37,7 +37,7 @@
     line-height: 109.2%;
     color: #4A4A4A;
 }
-.border-left{
+.border-left-bottom{
     display: flex;
     max-width: 299px;
     height: 0px;

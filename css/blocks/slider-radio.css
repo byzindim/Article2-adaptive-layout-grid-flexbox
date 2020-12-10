@@ -69,6 +69,7 @@
     border-bottom-left-radius: 15px;
 }
 .data-slider1-radio{
+    margin: 26px 0 14px 0;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
@@ -83,6 +84,7 @@
     color: #000000;
 }
 .slider-p1-radio{
+    margin-top: 13px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
@@ -91,12 +93,16 @@
     color: #000000;
 }
 .data-slider2-radio,.data-slider3-radio{
+    margin: 26px 0 14px 28px;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
 }
 .link-slider2-radio,.link-slider3-radio{
+    max-width: 297px;
+    height: 66px;
+    margin:0 0 0 28px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -105,12 +111,17 @@
     color: #000000;
 }
 .slider-p2-radio,.slider-p3-radio{
+    margin: 14px 0 0 26px;
+    max-width: 280px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 124.8%;
     color: #000000;
+}
+.block-slider4-radio{
+    margin: 103px 0 47px 44px;
 }
 .link-slider4-radio{
     max-width: 262px;
@@ -123,12 +134,14 @@
 }
 .slider4-border-radio{
     max-width: 260px;
+    margin: 0 0 33px 44px;
     height: 3px;
     background: #C6003B;
     border-radius: 4px;
 }
 .slider-p4-radio{
     max-width: 277px;
+    margin: 0 0 0 44px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -139,12 +152,14 @@
 
 
 .data-slider5-radio{
+    margin: 26px 0 14px 27px;
     font-family: Geometria;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
 }
 .link-slider5-radio{
+    margin:0 0 0 28px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -153,6 +168,7 @@
     color: #000000;
 }
 .slider-p5-radio{
+    margin: 14px 0 0 25px;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
