@@ -68,9 +68,18 @@
     display: none;
 }
 
+
 @media screen and (max-width: 1024px) {
     .grid-center{
         grid-template-columns: 1fr;
+    }
+    .gird-item-content-center{
+        margin: 34px 0 44px 0; 
+    }
+    .border-center-max{
+        max-width: 946px;
+        height: 0px;
+        border: 1px solid #C9C9C9
     }
     
 } 

@@ -69,6 +69,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .container-slider-center{
+        margin: 35px 0 118px 0;
+    }
     .slider-article-center4{
         display: none;
     }

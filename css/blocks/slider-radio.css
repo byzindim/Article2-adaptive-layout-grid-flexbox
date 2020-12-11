@@ -195,6 +195,9 @@
 
 
 @media screen and (max-width: 1024px){
+    .bg-red{
+        margin-top: 26px;
+    }
     .slider-article5-radio{
         display: none;
     }

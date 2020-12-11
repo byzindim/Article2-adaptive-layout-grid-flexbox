@@ -83,7 +83,9 @@
 .border-right-center2{
 margin: -3px 0 13px 0;
 }
-
+.title-right-center3-ipad{
+    display: none;
+}
 @media screen and (max-width: 1024px){
     .gird-item-right-center{
         grid-column: 1/1;
@@ -94,5 +96,20 @@ margin: -3px 0 13px 0;
         /* margin: 12px 0 0 37px;
         display: flex;
         flex-direction: column; */
+    }
+    .title-right-center3{
+        display: none;
+    }
+    .title-right-center3-ipad{
+        display: block;
+        max-width: 272px;
+        margin: 39px 0 24px 1px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 117.8%;
+        letter-spacing: 0.1em;
+        color: #000000;
     }
 } 

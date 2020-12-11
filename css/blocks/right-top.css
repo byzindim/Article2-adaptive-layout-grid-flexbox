@@ -52,14 +52,20 @@
 }
 
 @media screen and (max-width: 1024px){
+    
     .gird-item-right-top{
-        grid-column: 2/4;
+        grid-column: 1/4;
         grid-row: 7/7;
-        margin: -5px 0 0 31px;
+        margin: -26px 0 0 -16px;
         height: 433px;
         display: flex;
         flex-wrap: wrap;
         /* flex-direction: column; */
         /* justify-content: space-between; */
+    }
+    .border-right-top{
+        margin-bottom: 21px;
+        max-width: 607px;
+
     }
 } 
