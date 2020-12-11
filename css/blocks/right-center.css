@@ -86,6 +86,9 @@ margin: -3px 0 13px 0;
 .title-right-center3-ipad{
     display: none;
 }
+.article-right-center-ipad{
+    display: none;
+}
 @media screen and (max-width: 1024px){
     .gird-item-right-center{
         grid-column: 1/1;
@@ -96,6 +99,9 @@ margin: -3px 0 13px 0;
         /* margin: 12px 0 0 37px;
         display: flex;
         flex-direction: column; */
+    }
+    .article-right-center-ipad{
+        display: block;
     }
     .title-right-center3{
         display: none;
