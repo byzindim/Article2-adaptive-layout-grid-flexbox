@@ -85,6 +85,14 @@ margin: -3px 0 13px 0;
 }
 
 @media screen and (max-width: 1024px){
-    .gird-item-right-top{
-        display: none;
-    } 
+    .gird-item-right-center{
+        grid-column: 1/1;
+        grid-row: 9/10;
+        display: flex;
+        flex-wrap: wrap;
+        height: 375px;
+        /* margin: 12px 0 0 37px;
+        display: flex;
+        flex-direction: column; */
+    }
+} 

@@ -49,6 +49,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    .gird-item-right-top{
+    .gird-item-right-top-bottom{
         display: none;
     } 
+}

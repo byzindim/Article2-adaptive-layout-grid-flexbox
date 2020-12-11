@@ -32,7 +32,7 @@
 .banner-center{
     width: 100%;
     max-width: 334px;
-    height: 612px;
+    height: auto;
     border-radius: 15px;
 }
 .gird-item-content-center{
@@ -69,37 +69,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .grid-top{
+    .grid-center{
         grid-template-columns: 1fr;
     }
-    .container-top{
-        margin: 30px 0 0 0;
-    }
-    .button1, .button2{
-        width: 90px;
-        height: 28px;   
-    }
-    .top-title-left{
-        max-width: 780px;
-    }
-    .top-content-left{
-        max-width: 830px;
-    }
-    .content-left-img{
-        display: none;
-    }
-    .banner-top-ipad{
-        display: block;
-        max-width: 958.18px;
-        margin-left: -1px;
-        height: auto;
-        width: 100%;
-        border-radius: 15px;
-    }
-    .img-title-left{
-        max-width: 130px;
-        margin: -35px 0 0 22px;
-    }
+    
 } 
 
 @media screen and (max-width: 376px) {

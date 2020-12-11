@@ -190,3 +190,21 @@
     line-height: 124.8%;
     color: #000000;
 }
+
+
+
+
+@media screen and (max-width: 1024px){
+    .slider-article5-radio{
+        display: none;
+    }
+    .slider-article4-radio{
+        max-width: 131px;
+        height: 497px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+} 
+

@@ -33,10 +33,14 @@ a{
 }
 
 @media screen and (max-width: 1024px){
+    .container{
+        height: 5109px;
+
+    }
     .wrapper{
-        max-width: 0px;
+        max-width: 960px;
     } 
-    .wrapper-header{
+    .wrapper-marketing{
         max-width: 1024px;
     }
 }

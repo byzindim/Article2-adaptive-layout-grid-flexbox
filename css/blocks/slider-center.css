@@ -13,7 +13,7 @@
     border: 1px solid #C4C4C4;
     transform: rotate(-0.1deg);
 }
-.slider-article-center{
+.slider-article-center, .slider-article-center4{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;   
@@ -69,39 +69,8 @@
 }
 
 @media screen and (max-width: 1024px){
-    .container-slider{
-        margin: 63px 0 23px 0;
-    }
-    .slider-banner1, 
-    .slider-banner2, 
-    .slider-banner3{
-        max-width: 310px;
-    }
-    .data-slider{
-        margin: 18px 0 0 22px;
-    }
-    .link-slider1, .link-slider2{
-        max-width: 266px;
-        margin: 36px 0 0 20px;
-    }
-    .link-slider3{
-        max-width: 266px;
-        margin: 14px 0 0 20px;
-    }
-    .slider-p{
-        display: flex;
-        max-width: 258px;
-        margin-top: 11px;
-        font-family: Proxima Nova;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 124.8%;
-        color: #000000;
-    }
-    .slider-border, .slider-border3{
-        margin: 2px 0 0 0;
-        height: 497px; 
+    .slider-article-center4{
+        display: none;
     }
 
     .ipad-marketing{
