@@ -17,7 +17,7 @@
     margin-bottom: 17px;
 }
 
-.article-top{
+.article-top1, .article-top2, .article-top3{
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -73,13 +73,18 @@
     height: auto;
     width: 100%;
     max-width: 1023px;
-    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 20.75%, rgba(50, 40, 40, 0.8) 71.08%);
+    background: linear-gradient(180deg,
+        rgba(196, 196, 196, 0) 20.75%,
+        rgba(50, 40, 40, 0.8) 71.08%);
     background-blend-mode: multiply;
     border-radius: 15px;
 }
+.content-left-img-ipad{
+    display: none;
+}
 .content-top-img{
     position: absolute;
-    margin: -315px 0 0 50px;
+    margin: -315px 0 0 51px;
 }
 .btn-top{
 display: none;
@@ -129,22 +134,22 @@ display: none;
     }
     .articles-top{
         display: flex;
-        justify-content: space-between;
-        max-width: 904px;
-        margin-bottom: 29px;
+        /* justify-content: space-between; */
+        /* max-width: 904px; */
+        margin-bottom: 27px;
     }
     .article-top1{
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
-        max-width: 279px;
+        /* justify-content: space-between; */
+        /* max-width: 279px; */
         margin-right: 21px;
     }
     .article-top2, .article-top3{
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
-        max-width: 284px;
+        /* justify-content: space-between; */
+        /* max-width: 284px; */
     }
 
     .gird-item-article-top{
@@ -155,7 +160,7 @@ display: none;
     .gird-item-banner-top{
         grid-column: 1/4;
         grid-row: 2/6;
-        margin: 0 0 38px -14px;
+        margin: 0 0 38px 0px;
     }
 
     .btn-top{
@@ -163,7 +168,7 @@ display: none;
         justify-content: center;
         align-items: center;
         position: absolute;
-        margin: 163px 0 0 15px;
+        margin: 161px 0 0 16px;
         background: none;
         width: 90px;
         height: 28px;
@@ -179,17 +184,17 @@ display: none;
     }
 
     .link-title-top1{
-        margin: 4px 0px 0 0px;
+        margin: 4px 3px 0 24px;
         max-width: 231px;
         height: 75px;
     }
     .link-title-top2{
-        margin: 2px 0 0 0px;
+        margin: 2px 9px 0 24px;
         max-width: 220px;
         height: 73px;
     }
     .link-title-top3{
-        margin: 3px 0px 0 0px;
+        margin: 3px 0px 0 19px;
         max-width: 220px;
         height: 101px;
     }
@@ -197,24 +202,27 @@ display: none;
         width: 0px;
         height: 84px;
         border: 1px solid #000000;
-        margin: 6px 0 0 0;
+        margin: 6px 29px 0 0;
     }
-    .content-left-img{
-        max-width: 960px;
-    }
-    .content-top-img{
-        margin: -307px 0 0 30px;
-    }
-    .top-title-left{
-        margin-bottom: 16px;
-    }
-    .banner-top-ipad{
+    .content-left-img-ipad{
         display: block;
-        max-width: 958.18px;
-        margin-left: -1px;
+        max-width: 960px;
         height: auto;
         width: 100%;
+        background: linear-gradient(180deg,
+            rgba(196, 196, 196, 0) 20.75%, 
+            rgba(50, 40, 40, 0.8) 71.08%);
+        background-blend-mode: multiply;
         border-radius: 15px;
+    }
+    .content-top-img{
+        margin: -303px 0 0 32px;
+    }
+    .top-title-left{
+        margin-bottom: 14px;
+    }
+    .content-left-img{
+        display: none;
     }
     
     

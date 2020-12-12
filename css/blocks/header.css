@@ -91,6 +91,9 @@
         align-items: center;
         margin: 23px 0 26px 0;
     }
+    .header-icon {
+        margin: 21px 21px 0 0;
+    }
     .menu-item{
          margin-right: 39px; 
     }

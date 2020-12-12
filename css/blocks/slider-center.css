@@ -6,7 +6,7 @@
     justify-content: space-between;
     background: #fff;
 }
-.slider-border-center{
+.slider-border-center,.slider-border-center3{
     margin: 2px 0 0 0;
     width: 0px;
     height: 396.01px;
@@ -37,6 +37,13 @@
     height: auto;
     border-radius: 15px;
 }
+.content-slider-center-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px 0 0 12px;
+    height: 80px;
+}
 .link-slider-center{
     max-width: 277px;
     margin-left: 10px;
@@ -47,7 +54,7 @@
     line-height: 115.8%;
     color: #000000;
 }
-.data-slider-center{
+.data-slider-center,.data-slider-center3{
     max-width: 113px;
     height: 15px;
     margin: 18px 0 9px 8px;
@@ -67,15 +74,53 @@
 .data-slider-mobile2,.data-slider-mobile3{
     display: none;
 }
+.slider-banner-center-ipad1,
+.slider-banner-center-ipad2,
+.slider-banner-center-ipad3{
+    display: none;
+}
+.slider-p-center{
+    display: none;
+}
 
 @media screen and (max-width: 1024px){
     .container-slider-center{
-        margin: 35px 0 118px 0;
+        margin: 35px 0 24px 0;
     }
     .slider-article-center4{
         display: none;
     }
-
+    .content-slider-center-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 3px 0 0 12px;
+        height: 180px;
+    }
+    .data-slider-center {
+        margin: 18px 0 37px 8px;
+    }
+    .data-slider-center3 {
+        margin: 18px 0 37px 8px;
+    }
+    .slider-p-center{
+        display: flex;
+        max-width: 258px;
+        margin: 9px 0 0 8px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 124.8%;
+        color: #000000;
+    }
+    .slider-border-center,.slider-border-center3{
+        margin: 2px 0 0 0;
+        width: 0px;
+        height: 497px;
+        border: 1px solid #C4C4C4;
+        transform: rotate(-0.1deg);
+    }
     .ipad-marketing{
         display: flex;
         justify-content: center;
@@ -95,6 +140,23 @@
         line-height: 115.8%;
         letter-spacing: 0.54em;
         color: #C4C4C4;
+    }
+    .slider-banner-center1,
+    .slider-banner-center2,
+    .slider-banner-center3{
+        display: none;
+    }
+    .slider-border-center3{
+        display: none;
+    }
+    .slider-banner-center-ipad1,
+    .slider-banner-center-ipad2,
+    .slider-banner-center-ipad3{
+        display: block;
+        max-width: 310px;
+        border-radius: 15px;
+        height: auto;
+        width: 100%;
     }
     .slider-border3, .slider-border-ipad, 
     .slider-mobile1, .slider-article4, 

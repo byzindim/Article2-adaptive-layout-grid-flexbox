@@ -64,22 +64,50 @@
 .banner-top-ipad{
     display: none;
 }
+.banner-center-ipad{
+    display: none;
+}
 .banner-top-mobile{
     display: none;
 }
 
 
+
 @media screen and (max-width: 1024px) {
+    .wrapper-center{
+        max-width: 960px;
+        margin: 0 auto;
+    }
     .grid-center{
         grid-template-columns: 1fr;
     }
     .gird-item-content-center{
-        margin: 34px 0 44px 0; 
+        margin: 32px 0 48px 3px; 
     }
     .border-center-max{
         max-width: 946px;
         height: 0px;
         border: 1px solid #C9C9C9
+    }
+    .banner-center{
+        display: none;
+    }
+    
+    .banner-center-ipad{
+        display: block;
+        width: 100%;
+        max-width: 310.7px;
+        height: 612px;
+        border-radius: 15px;
+    }
+    .center-title-left {
+        max-width: 838px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 111.2%;
+        color: #000000;
     }
     
 } 

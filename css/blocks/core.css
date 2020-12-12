@@ -25,7 +25,7 @@ a{
     background: #fff;
 }
 
-.wrapper, .wrapper-header{
+.wrapper, .wrapper-header, .wrapper-radio{
     max-width: 1381px;
     min-width: 320px;
     margin: 0 auto;
@@ -34,15 +34,18 @@ a{
 
 @media screen and (max-width: 1024px){
     .container{
-        height: 6800px;
+        height: 5800px;
 
     }
     .wrapper{
         max-width: 960px;
-    } 
+    }
     .wrapper-marketing{
         max-width: 1024px;
     }
+    .wrapper-radio{
+        max-width: 1024px;
+    } 
 }
 
 

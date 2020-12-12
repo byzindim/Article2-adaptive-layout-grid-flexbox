@@ -32,7 +32,7 @@
     background:  #C6003B;
 }
 .slider-article1-radio{
-    max-width: 200px;
+    max-width: 216px;
     height: 502px;
     background: #FFFFFF;
     border-top-right-radius: 15px;
@@ -52,14 +52,14 @@
     border-radius: 15px;
 }
 .slider-article5-radio{
-    max-width: 121px;
+    max-width: 117px;
     height: 502px;
     background: #FFFFFF;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 .slider-banner1-radio{
-    max-width: 200px;
+    max-width: 216px;
     width: 100%;
     height: auto;
     border-top-right-radius: 15px;
@@ -73,7 +73,7 @@
     border-radius: 15px;
 }
 .slider-banner5-radio{
-    max-width: 131px;
+    max-width: 117px;
     width: 100%;
     height: auto;
     border-top-left-radius: 15px;
@@ -191,18 +191,99 @@
     color: #000000;
 }
 
-
-
+.slider-banner1-radio-ipad{
+    display: none;
+}
+.link-slider4-radio-ipad,
+.slider4-border-radio-ipad,
+.slider-p4-radio-ipad{
+    display: none;
+}
+.data-slider4-radio-ipad{
+    display: none;
+}
 
 @media screen and (max-width: 1024px){
     .bg-red{
         margin-top: 26px;
     }
+    .title-article-radio {
+        max-width: 900px;
+        margin: 52px 0 40px 41px;
+    }
+    .link-slider4-radio,
+    .slider4-border-radio,
+    .slider-p4-radio{
+        display: none;
+    }
+    .data-slider1-radio {
+        margin: 26px 0 14px -12px;
+    }
+    .link-slider1-radio {
+        margin:0 50px 0 -22px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 115.8%;
+        color: #000000;
+    }
+    .slider-p1-radio {
+        margin:18px 0 0 -27px;
+    }
+    .data-slider4-radio-ipad{
+        display: block;
+        margin: -59px 0 -58px 36px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .link-slider4-radio-ipad{
+        display: block;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 115.8%;
+        color: #000000;
+    }
+    .slider4-border-radio-ipad{
+        display: block;
+        margin: 0 0 33px 44px;
+        height: 3px;
+        background: #C6003B;
+        border-radius: 4px;
+    }
+    .slider-p4-radio-ipad{
+        display: block;
+        margin: 0 0 0 44px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 115.8%;
+        color: #000000;
+    }
     .slider-article5-radio{
         display: none;
     }
+    .slider-article1-radio {
+        margin-left: -11px;
+    }
+    .slider-banner1-radio{
+        display: none;
+    }
+    .slider-banner1-radio-ipad{
+        display: block;
+        max-width: 199px;
+        height: 260px;
+        width: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
     .slider-article4-radio{
-        max-width: 131px;
+        width: 131px;
         height: 497px;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
