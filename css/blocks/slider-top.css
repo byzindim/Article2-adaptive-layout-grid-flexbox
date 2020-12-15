@@ -73,6 +73,14 @@
     line-height: 115.8%;
     color: #FFFFFF;
 }
+.link-slider-p0-top{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 115.8%;
+    color: #FFFFFF;
+}
 .slider-article-top{
     display: flex;
     flex-direction: column;
@@ -200,6 +208,14 @@
         max-width: 300px;
         margin: 29px 0 0 34px;
     }
+    .link-slider-p0-top{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 115.8%;
+        color: #FFFFFF;
+    }
     .data-slider0-top{
         display: none;
     }
@@ -295,7 +311,7 @@
     .slider-banner-top{
         max-width: 310px;
         width: 100%;
-        height: 260px;
+        height: auto;
         border-radius: 15px;
     }
     .link-slider-top {
@@ -305,26 +321,6 @@
     .data-slider3-top{
         display: none;
     }
-    /* .ipad-marketing{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 958px;
-        height: 114px;
-        border: 1px solid #C4C4C4;
-        box-sizing: border-box;
-    }
-    .ipad-marketing-link{
-        display: block;
-        text-transform: uppercase;
-        font-family: Proxima Nova;
-        font-style: normal;
-        font-weight: 250;
-        font-size: 50px;
-        line-height: 115.8%;
-        letter-spacing: 0.54em;
-        color: #C4C4C4;
-    } */
     .slider-border3, .slider-border-ipad, 
     .slider-mobile1, .slider-article4, 
     .slider-mobile2, .slider-mobile3, 

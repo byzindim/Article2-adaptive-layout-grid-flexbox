@@ -98,7 +98,7 @@ display: none;
     line-height: 109.2%;
     color: #FFFFFF;
 }
-.top-title-left{
+.top-title-left,.link-top-title-left{
     max-width: 893.14px;
     margin-bottom: 20px;
     font-family: Geometria;
@@ -108,7 +108,7 @@ display: none;
     line-height: 111.2%;
     color: #FFFFFF;
 }
-.top-content-left{
+.top-content-left,.link-top-content-left{
     max-width: 929.82px;
     font-family: Geometria;
     font-style: italic;

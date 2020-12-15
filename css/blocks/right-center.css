@@ -13,7 +13,7 @@
     line-height: 109.2%;
     color: #C6003B;
 }
-.title-right-center1{
+.title-right-center1, .link-title-right-center1{
     max-width: 299px;
     margin: 22px 0 24px 0;
     font-family: Geometria;

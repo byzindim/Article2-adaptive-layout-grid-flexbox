@@ -42,7 +42,7 @@
     flex-direction: column;
     margin: 34px 0 28px 0; 
 }
-.center-title-left{
+.center-title-left,.link-center-title-left{
     max-width: 901px;
     font-family: Geometria;
     font-style: normal;
@@ -51,7 +51,7 @@
     line-height: 111.2%;
     color: #000000;
 }
-.center-content-left{
+.center-content-left,.link-center-content-left{
     max-width: 938px;
     margin-top: 24px;
     font-family: Geometria;

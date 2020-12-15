@@ -159,6 +159,8 @@
 .slider-p4-radio{
     max-width: 277px;
     margin: 0 0 0 44px;
+}
+.link-slider-p4-radio{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
@@ -257,13 +259,16 @@
     }
     .slider-p4-radio-ipad{
         display: block;
-        margin: 0 0 0 44px;
+        margin: 0 0 0 44px;  
+    }
+    .link-slider-p4-radio-ipad{
         font-family: Proxima Nova;
         font-style: normal;
         font-weight: bold;
         font-size: 21px;
         line-height: 115.8%;
-        color: #000000;
+        color: 
+        #000000;
     }
     .slider-article5-radio{
         display: none;
