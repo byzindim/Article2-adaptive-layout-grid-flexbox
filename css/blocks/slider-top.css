@@ -335,8 +335,17 @@
     }
 }
 
-@media screen and (max-width: 376px){
-    .container-slider{
+@media screen and (max-width: 426px){
+    .gird-item-slider-top {
+       display: flex;
+       flex-direction: column;
+    }
+    .content-slider-top {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+    }
+    /* .container-slider{
         margin: 29px 0 23px 0;
     }
     .content-slider{
@@ -466,7 +475,7 @@
    .mobile-marketing3{
     margin: 87px 0 25px 0px;
     }
-    
+     */
 
     
 }

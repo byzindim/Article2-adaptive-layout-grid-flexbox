@@ -297,3 +297,13 @@
     }
 } 
 
+
+
+@media screen and (max-width: 426px){
+    .content-slider-radio {
+        display: flex;
+        flex-direction: column;
+        background: #C6003B;
+        margin-bottom: 47px;
+    }
+}

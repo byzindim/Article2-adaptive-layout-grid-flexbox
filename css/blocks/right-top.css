@@ -101,3 +101,24 @@
     }
        
 } 
+
+@media screen and (max-width: 426px){
+    .gird-item-right-top {
+        /* grid-column: 1/1;
+        grid-row: 7/7;
+        margin: -26px 0 0 0px; */
+        /* height: 433px; */
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+    .best-article{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .article-desctop{
+        display: none;
+    }
+}

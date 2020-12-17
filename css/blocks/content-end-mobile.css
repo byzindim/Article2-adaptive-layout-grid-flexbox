@@ -1,0 +1,96 @@
+.content-end-mobile{
+    display: none;
+}
+@media screen and (max-width: 426px){
+    .content-end-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-end-mobile{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gird-item-end-mobile{
+        margin: 0 7px 7px 0;
+    }
+    .banner-end-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 106px;
+        height: 145px;
+        border-radius: 5px;
+    }
+    .link-content-end-mobile{
+        width: 300px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 115.8%;
+        color: #000000;
+    }
+    .link-end-mobile-article{
+        width: 299px;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 115.8%;
+        color: #000000;
+    }
+    .btn-end-mobile1,.btn-end-mobile2,.btn-end-mobile3,
+    .btn-end-mobile4,.btn-end-mobile5,.btn-end-mobile6,
+    .btn-end-mobile7,.btn-end-mobile8,.btn-end-mobile9{
+        position: absolute;
+        margin-top: 115px;
+        width: 106px;
+        height: 30px;
+        background: #C6003B;
+        text-transform: uppercase;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 500;
+        border: none;
+        border-radius: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #FFFFFF;
+    }
+    .btn-end-mobile1,.btn-end-mobile2,.btn-end-mobile5,
+    .btn-end-mobile8,.btn-end-mobile9{
+        font-size: 14px;
+        line-height: 115.8%;
+    }
+    .btn-end-mobile3,
+    .btn-end-mobile4,.btn-end-mobile6,
+    .btn-end-mobile7{
+        font-size: 11px;
+        line-height: 115.8%;
+    }
+
+    .circle-mobile{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4px 0 0 59px;
+        width: 37px;
+        height: 37px;
+        background: #FFFFFF;
+        border-radius: 19px;
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        color: #000000;
+    }
+
+   
+}

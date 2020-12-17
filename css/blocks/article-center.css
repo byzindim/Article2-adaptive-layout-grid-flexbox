@@ -112,8 +112,14 @@
     
 } 
 
-@media screen and (max-width: 376px) {
-    .container-top{
+@media screen and (max-width: 425px) {
+    .gird-item-banners-center {
+        grid-column: 1/1;
+        grid-row: 2/6;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .container-top{
         margin-top: 22px;
     }
     .button-group{
@@ -159,14 +165,11 @@
     .banner-top-ipad{
         display: none;
     }
-    .gird-item-banner-top{
+    /* .gird-item-banner-top{
         margin-left: 3px;
-    }
-    .banner-top-mobile{
-        display: block;
-        border-radius: 15px;
-    }
+    } */
+    
     .img-title-left{
         display: none;
-    }
+    } */
 }

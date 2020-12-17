@@ -49,9 +49,15 @@ a{
 }
 
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 426px){
     .container{
-        height: auto;
+        height: 11959px;
+    }
+    .container-end-mobile{
+        max-width: 100%;
+        min-width: 320px;
+        height: 1500px;
+        background: #fff;
     }
     .wrapper{
         max-width: 0px;

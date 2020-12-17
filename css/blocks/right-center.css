@@ -150,3 +150,8 @@ margin: -3px 0 13px 0;
         border: 1px solid #C9C9C9;
     }
 } 
+
+@media screen and (max-width: 426px){
+.right-center6{
+    display: none;
+}
