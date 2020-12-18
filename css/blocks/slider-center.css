@@ -176,6 +176,9 @@
     .container-slider-center{
         display: none;
     }
+    .border-center-max {
+        display: none;
+    }
     /* .content-slider{
         display: flex;
         flex-direction: column;

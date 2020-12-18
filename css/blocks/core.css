@@ -51,15 +51,18 @@ a{
 
 @media screen and (max-width: 426px){
     .container{
-        height: 11959px;
+        height: 10359px;
     }
     .container-end-mobile{
-        max-width: 100%;
+        max-width: 375px;
         min-width: 320px;
         height: 1500px;
         background: #fff;
     }
-    .wrapper{
-        max-width: 0px;
+    .wrapper-end{
+        display: block;
+        max-width: 332px;
+        margin: 0 auto;
     } 
+    
 }

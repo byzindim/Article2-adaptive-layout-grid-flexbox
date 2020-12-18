@@ -1,3 +1,6 @@
+
+			/* Слайдер радио desctop */
+
 .radio-select{
     display: flex;
     justify-content: space-between;
@@ -46,3 +49,58 @@
 	filter: brightness(120%);
 }
  
+.radio-select-center-mobile{
+	display: none;
+}
+
+/* Слайдер радио mobile */
+@media screen and (max-width: 425px) {
+	.radio-select-center-mobile{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+		max-width: 185px;
+		background:#fff;
+	}
+	.form_radio-center-mobile {
+		margin-right: 9px;
+	}
+	.form_radio-center-mobile input[type=radio] {
+		display: none;
+	}
+	.form_radio-center-mobile label {
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+		padding-left: 25px;
+		margin-right: 0;
+		line-height: 18px;
+		user-select: none;
+	}
+	.form_radio-center-mobile label:before {
+		content: "";
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		position: absolute;
+		left: 0;
+		bottom: 1px;
+		background:#fff;
+		border: 1px solid #000;
+	}
+	
+	/* Checked */
+	.form_radio-center-mobile input[type=radio]:checked + label:before {
+		background:#fff;
+		width: 10px;
+		height: 10px;
+		border-radius: 12px;
+		border: 4px solid #000;
+	}
+	
+	/* Hover */
+	.form_radio-center-mobile label:hover:before {
+		filter: brightness(120%);
+	}
+}

@@ -71,10 +71,16 @@
         display: block;
         max-width: 607px;
         height: 0px;
+        margin: 19px 0 16px 0;
         border: 1px solid #C9C9C9;
     }
     .border-right-top-max{
         display: none;
+    }
+    .article-desctop{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .articles-right-top{
         display: flex;

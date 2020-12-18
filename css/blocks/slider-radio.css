@@ -204,7 +204,12 @@
 .data-slider4-radio-ipad{
     display: none;
 }
-
+.wrapper-article2-end,.slider-article2-radio-end{
+    display: none;
+}
+.next-content{
+    display: none;
+}
 @media screen and (max-width: 1024px){
     .bg-red{
         margin-top: 26px;
@@ -305,5 +310,89 @@
         flex-direction: column;
         background: #C6003B;
         margin-bottom: 47px;
+    }
+    .title-article-radio {
+        max-width: 333px;
+        width: 100%;
+        margin: 52px 0 40px 4px;
+        text-transform: uppercase;
+        font-family: Gotham Pro;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 110.7%;
+        color: #FFFFFF;
+        background: #C6003B;
+    }
+    .slider-article1-radio,
+    .slider-article2-radio,
+    .slider-article3-radio,
+    .slider-article4-radio,
+    .slider-article5-radio{
+        display: none;
+    }
+   
+    .slider-article2-radio-end{
+        display: block;
+        max-width: 333px;
+        height: 502px;
+        background: #FFFFFF;
+        border-radius: 15px;
+    }
+    .wrapper-article2-end{
+        display: block;
+        max-width: 332px;
+        margin: 0 auto;
+    } 
+
+    .content-article2-end{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-article2-end{
+        width: 61px;
+        height: 28px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 8px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 115.8%;
+        color: #000000;
+    }
+
+
+
+    .next-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        margin: 22px 0 0 0;
+    }
+    .next-link{
+        margin-bottom: 9px;
+        font-family: Geometria;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 117.8%;
+        letter-spacing: 0.1em;
+        color: #fff;
+    }
+    .next-line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 131px;
+        height: 0px;
+        border: 1px solid #fff;
+        background: #fff;
     }
 }

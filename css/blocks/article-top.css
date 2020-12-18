@@ -129,7 +129,9 @@ display: none;
 .content-top-img-mobile{
     display: none;
 }
-
+.best-article-mobile{
+    display: none;
+}
 @media screen and (max-width: 1024px) {
     .container-top{
         margin-top: 24px;
@@ -353,6 +355,9 @@ display: none;
         font-size: 20px;
         line-height: 130.2%;
         color: #000;
+    }
+    .best-article-mobile{
+        display: block;
     }
     /* .img-title-left{
         display: none;
