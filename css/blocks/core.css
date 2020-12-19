@@ -20,7 +20,7 @@ a{
 
 .container{
     max-width: 100%;
-    min-width: 320px;
+    min-width: 375px;
     height: 6029px;
     background: #fff;
 }
@@ -35,7 +35,6 @@ a{
 @media screen and (max-width: 1024px){
     .container{
         height: 5800px;
-
     }
     .wrapper{
         max-width: 960px;
@@ -47,19 +46,22 @@ a{
         max-width: 1024px;
     } 
 }
-
-
+@media screen and (max-width: 850px){
+    .container{
+        padding: 0 7px 0 7px;
+    }
+}
 @media screen and (max-width: 426px){
     .container{
-        height: 10359px;
+        height: 7865px;
     }
     .wrapper{
         max-width: 336px;
     }
     .container-end-mobile{
-        max-width: 375px;
-        min-width: 320px;
-        height: 1500px;
+        max-width: 426px;
+        min-width: 375px;
+        height: 1100px;
         background: #fff;
     }
     .wrapper-end{

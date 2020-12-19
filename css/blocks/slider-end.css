@@ -5,7 +5,6 @@
     max-width: 1373px;
     margin: 0 auto;
 }
-
 .content-slider-end{
     display: flex;
     justify-content: space-between;
@@ -26,13 +25,11 @@
     border: 1px solid #C4C4C4;
     transform: rotate(-0.1deg);
 }
-
 .slider-article-end{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;   
 }
-
 .slider-banner-end{
     max-width: 317px;
     width: 100%;
@@ -201,7 +198,7 @@
     }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 426px){
     .container-slider{
         margin: 29px 0 23px 0;
     }
@@ -330,8 +327,5 @@
     }
    .mobile-marketing3{
     margin: 87px 0 25px 0px;
-    }
-    
-
-    
+    }   
 }

@@ -86,8 +86,7 @@
     }
 } 
 
-@media screen and (max-width: 376px) {
-    
+@media screen and (max-width: 426px) {
     .button-group{
         margin: -5px -21px 0 0;
     }
@@ -101,7 +100,7 @@
     grid-column: 1/1;
     grid-row: 2/2;
     margin: 16px 0 18px 3px; 
-}
+    }
     .top-title-left{
         max-width: 324px;
         font-family: Geometria;
@@ -112,9 +111,9 @@
         color: #000000;
     }
     .gird-item-p-top{
-    grid-column: 1/1;
-    grid-row: 3/3;
-    margin: 0px 0 18px 5px; 
+        grid-column: 1/1;
+        grid-row: 3/3;
+        margin: 0px 0 18px 5px; 
     }
     .top-content-left{
         max-width: 324px;

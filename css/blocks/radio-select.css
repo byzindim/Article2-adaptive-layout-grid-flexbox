@@ -54,11 +54,11 @@
 }
 
 /* Слайдер радио mobile */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 	.radio-select-center-mobile{
 		display: flex;
-		justify-content: space-between;
-		margin: 0 auto;
+		justify-content: center;
+		margin: 20px 0 0 83px;
 		max-width: 185px;
 		background:#fff;
 	}
@@ -80,8 +80,8 @@
 	.form_radio-center-mobile label:before {
 		content: "";
 		display: inline-block;
-		width: 16px;
-		height: 16px;
+		width: 12px;
+		height: 12px;
 		border-radius: 8px;
 		position: absolute;
 		left: 0;
@@ -102,5 +102,30 @@
 	/* Hover */
 	.form_radio-center-mobile label:hover:before {
 		filter: brightness(120%);
+	}
+
+	.form_radio {
+		margin-right: 1px;
+	}
+	.radio-select{
+		max-width: 135px;
+	}
+	.form_radio label:before {
+		content: "";
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 8px;
+		position: absolute;
+		left: 0;
+		bottom: 1px;
+		background:#fff;
+	}
+	.form_radio input[type=radio]:checked + label:before {
+		background:#C6003B;
+		width: 6px;
+		height: 6px;
+		border-radius: 10px;
+		border: 4px solid #fff;
 	}
 }

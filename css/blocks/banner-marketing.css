@@ -23,7 +23,11 @@
     letter-spacing: 0.54em;
     color: #C4C4C4;
 }
-.mobile-marketing1,.mobile-marketing1-1{
+.mobile-marketing1,.mobile-marketing1-1,
+.mobile-marketing01-01,.mobile-marketing02-02,
+.mobile-marketing2-2,.mobile-marketing3-3,
+.mobile-marketing4-4,.mobile-marketing5-5,
+.mobile-marketing6-6{
     display: none;
 }
 
@@ -62,12 +66,141 @@
         justify-content: center;
         width: 300px;
         height: 300px;
-        margin: 0 0 30px 10px;
-        /* margin: 0 auto; */
+        margin: 0 0 0px 10px;
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
     }
     .content-marketing1-1{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .mobile-marketing01-01{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 0 26px 10px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .mobile-marketing02-02{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 0 26px 10px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .content-marketing1-1{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .mobile-marketing2-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 28px 0 37px 23px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .content-marketing2-2{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .mobile-marketing3-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 0 25px 18px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .content-marketing3-3{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .mobile-marketing4-4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin: 0 0 25px 18px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .content-marketing4-4{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .mobile-marketing5-5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin:  44px 25px 54px 9px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .mobile-marketing6-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin:  0px 25px 26px 15px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+    .content-marketing6-6{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 115.8%;
+        letter-spacing: 0.54em;
+        color: #C4C4C4;
+    }
+    .content-marketing5-5{
         font-family: Proxima Nova;
         font-style: normal;
         font-weight: 250;

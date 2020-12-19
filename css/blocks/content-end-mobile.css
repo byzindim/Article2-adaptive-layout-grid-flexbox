@@ -30,6 +30,9 @@
         line-height: 115.8%;
         color: #000000;
     }
+    .content-end-mobile-article{
+        margin: 15px 0 15px 0;
+    }
     .link-end-mobile-article{
         max-width: 299px;
         font-family: Segoe UI;
@@ -68,7 +71,6 @@
         font-size: 11px;
         line-height: 115.8%;
     }
-
     .circle-mobile{
         position: absolute;
         display: flex;
@@ -91,8 +93,5 @@
         font-weight: 300;
         font-size: 40px;
         color: #000000;
-    }
-    
-
-   
+    }   
 }
