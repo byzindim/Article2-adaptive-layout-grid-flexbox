@@ -62,7 +62,8 @@
         justify-content: center;
         width: 300px;
         height: 300px;
-        margin: 0 auto;
+        margin: 0 0 30px 10px;
+        /* margin: 0 auto; */
         border: 1px solid #C4C4C4;
         box-sizing: border-box;
     }
@@ -77,6 +78,9 @@
         color: #C4C4C4;
     }
     .wrapper-marketing{
+        display: none;
+    }
+    .wrapper-marketing-ipad {
         display: none;
     }
 }

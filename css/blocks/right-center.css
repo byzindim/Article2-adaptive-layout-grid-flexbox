@@ -129,7 +129,7 @@ margin: -3px 0 13px 0;
     .title-right-center3-ipad{
         display: block;
         max-width: 272px;
-        margin: 0px 0 20px 1px;
+        margin: 0px 0 0px 1px;
         font-family: Geometria;
         font-style: normal;
         font-weight: 500;
@@ -143,7 +143,7 @@ margin: -3px 0 13px 0;
         justify-content: flex-start;
         max-width: 607px;
         height: 309px;
-        margin-top: 11px;
+        margin-top: 0px;
     }
     .article-right-center123{
         margin: 0 55px 0 0;
@@ -159,7 +159,8 @@ margin: -3px 0 13px 0;
 
 @media screen and (max-width: 426px){
     .gird-item-right-center{
-        margin: 12px 0 0 37px;
+        margin: 12px 0 0 0px;
+        height: auto;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;

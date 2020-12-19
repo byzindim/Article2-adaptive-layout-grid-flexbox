@@ -53,6 +53,9 @@ a{
     .container{
         height: 10359px;
     }
+    .wrapper{
+        max-width: 336px;
+    }
     .container-end-mobile{
         max-width: 375px;
         min-width: 320px;

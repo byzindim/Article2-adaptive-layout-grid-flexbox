@@ -110,14 +110,10 @@
 
 @media screen and (max-width: 426px){
     .gird-item-right-top {
-        /* grid-column: 1/1;
-        grid-row: 7/7;
-        margin: -26px 0 0 0px; */
-        /* height: 433px; */
+        margin: -26px 0 0 5px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        /* justify-content: space-between; */
     }
     .best-article{
         display: flex;
@@ -126,5 +122,37 @@
     }
     .article-desctop{
         display: none;
+    }
+    .articles-right-top{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .next-content-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        margin: 22px 0 0 0;
+    }
+    .next-link-top{
+        margin-bottom: 9px;
+        font-family: Geometria;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 117.8%;
+        letter-spacing: 0.1em;
+        color: #000;
+    }
+    .next-line-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 108px;
+        height: 0px;
+        border: 1px solid #000;
+        background: #000;
     }
 }

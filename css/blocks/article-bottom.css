@@ -87,9 +87,7 @@
 } 
 
 @media screen and (max-width: 376px) {
-    .container-top{
-        margin-top: 22px;
-    }
+    
     .button-group{
         margin: -5px -21px 0 0;
     }
